@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <title>PEPE - The Most Memeable Memecoin</title>
+    <style>
+        body {
+            font-family: 'Poetsen One', cursive;
+        }
+        /* color scheme */
+        :root {
+            --primary-color: #2ecc71;
+            --secondary-color: #27ae60;
+            --bg-gradient-from: #c3ead0;
+            --bg-gradient-to: #57c785;
+        }
+        /* transitions */
+        a, button {
+            transition: all .5s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen flex flex-col bg-gradient-to-b from-[var(--bg-gradient-from)] to-[var(--bg-gradient-to)]">
+        <div class="mt-[36px] mx-[80px]">
+            <!-- Navbar -->
+            <nav class="flex justify-around items-center mx-3 p-2 rounded-xl drop-shadow-xl bg-white/50">
+                <img src="https://imgur.com/9nUJeH9.png" alt="Pepe Logo" class="w-12 drop-shadow-xl">
+                <div class="flex gap-5 text-lg text-gray-800">
+                    <a href="#" class="hover:text-[var(--primary-color)]">Telegram</a>
+                    <a href="#" class="hover:text-[var(--primary-color)]">Twitter</a>
+                    <a href="#" class="hover:text-[var(--primary-color)]">DexTools</a>
+                </div>
+                <button type="button" class="bg-[var(--primary-color)] px-6 py-2 rounded-full text-white font-semibold hover:bg-[var(--secondary-color)] drop-shadow-lg">
+                    Buy Now
+                </button>
+            </nav>
+        </div>
+        
+        <!-- Hero Section -->
+        <div class="flex-1 flex items-center justify-center mt-12 gap-[50px] flex-col-reverse sm:flex-row px-8" data-aos="fade-up">
+            <div class="flex flex-col gap-5">
+                <div class="flex flex-col gap-[32px]">
+                    <div class="flex flex-col gap-[10px]">
+                        <p class="font-bold text-[100px] sm:text-[128px] text-[var(--primary-color)] drop-shadow-xl">PEPE</p>
+                        <p class="text-2xl text-gray-800 max-w-[332px]">The most memeable memecoin</p>
+                    </div>
+                    <div class="flex flex-col sm:flex-row gap-[24px]">
+                        <button type="button" class="bg-[var(--secondary-color)] px-8 py-3 rounded-full text-white font-semibold hover:bg-[var(--primary-color)] drop-shadow-lg">Buy Now</button>
+                        <button type="button" class="bg-white px-8 py-3 rounded-full text-[var(--primary-color)] font-semibold hover:bg-gray-100 drop-shadow-lg">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <img src="https://imgur.com/9nUJeH9.png" alt="Pepe Hero" class="drop-shadow-xl w-[40vh] sm:w-[45vh]">
+        </div>
+
+        <!-- About Section -->
+        <div class="bg-white py-24" data-aos="fade-up">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center gap-16">
+                <div class="max-w-3xl mx-auto text-center">
+                    <h2 class="text-5xl font-extrabold text-[var(--primary-color)] sm:text-6xl mb-8">About</h2>
+                    <p class="mt-4 text-xl text-gray-700">Pepe is tired of watching everyone play hot potato with the endless derivative ShibaCumGMElonKishuTurboAssFlokiMoon Inu coins. The Inu's have had their day. It's time for the most recognizable meme in the world to take his reign as king of the internet.</p>
+                    <p class="mt-4 text-xl text-gray-700">Pepe is here to make memecoins great again. Launched stealth with no presale, zero taxes, LP burnt and contract renounced, $PEPE is a coin for the people, forever. Fueled by pure memetic power, let $PEPE show you the way.</p>
+                </div>
+                <img src="https://static.wixstatic.com/media/1f3f2b_b3f21b7f5c154daa84e020e5e2b5dc6f~mv2.png/v1/crop/x_0,y_0,w_3600,h_3605/fill/w_563,h_564,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/mmga1.png" alt="Pepe MMGA" class="w-96 drop-shadow-xl"> 
+            </div>
+        </div>
+
+        <!-- How To Buy Section -->
+        <div class="py-24" data-aos="fade-up">
+            <div class="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-5xl font-extrabold text-[var(--primary-color)] sm:text-6xl mb-8">How To Buy</h2>
+                </div>
+                <div class="mt-20 grid sm:grid-cols-2 gap-16 items-center">
+                    <div class="flex flex-col gap-8">
+                        <div class="flex gap-8">
+                            <div class="bg-white shadow rounded-full w-16 h-16 flex items-center justify-center text-3xl font-bold text-[var(--primary-color)]">1</div>
+                            <div>
+                                <h3 class="text-2xl font-bold mb-2">Create a Wallet</h3>
+                                <p class="text-gray-700">Download Metamask or your wallet of choice from the app store or google play store for free. Desktop users, download the google chrome extension by going to metamask.io.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-8">
+                            <div class="bg-white shadow rounded-full w-16 h-16 flex items-center justify-center text-3xl font-bold text-[var(--primary-color)]">2</div>
+                            <div>
+                                <h3 class="text-2xl font-bold mb-2">Get Some ETH</h3>
+                                <p class="text-gray-700">Have ETH in your wallet to switch to $PEPE. If you don't have any ETH, you can buy directly on Metamask, transfer from another wallet, or buy on another exchange and send it to your wallet.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-8">
+                            <div class="bg-white shadow rounded-full w-16 h-16 flex items-center justify-center text-3xl font-bold text-[var(--primary-color)]">3</div>
+                            <div>
+                                <h3 class="text-2xl font-bold mb-2">Go to Uniswap</h3>
+                                <p class="text-gray-700">Connect to Uniswap. Go to app.uniswap.org in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $PEPE token address into Uniswap, select Pepe, and confirm. When Metamask prompts you for a wallet signature, sign.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-8">
+                            <div class="bg-white shadow rounded-full w-16 h-16 flex items-center justify-center text-3xl font-bold text-[var(--primary-color)]">4</div>
+                            <div>
+                                <h3 class="text-2xl font-bold mb-2">Switch ETH for $PEPE</h3>
+                                <p class="text-gray-700">Switch ETH for $PEPE. We have ZERO taxes so you don't need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="https://static.wixstatic.com/media/1f3f2b_b1153043afba4b8e841b3f82859d3846~mv2.png/v1/crop/x_0,y_14,w_2472,h_2477/fill/w_454,h_455,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled%20design%20-%202023-03-30T221823_605.png" alt="Instructions" class="w-full max-w-xl mx-auto drop-shadow-xl">
+                </div>
+            </div>
+        </div>
+
+        <!-- Tokenomics Section -->
+        <div class="py-24 bg-white" data-aos="fade-up">
+            <div class="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-5xl font-extrabold text-[var(--primary-color)] sm:text-6xl mb-16">Tokenomics</h2>
+                </div>
+                <div class="flex flex-col lg:flex-row items-center justify-center gap-16">
+                    <img src="https://static.wixstatic.com/media/1f3f2b_b1f89e2179534202bedc41f8081abad7~mv2.png/v1/fill/w_433,h_433,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/pepememe%20(4).png" alt="Pepe Feels Good Man" class="lg:w-1/3 drop-shadow-xl">
+                    <div class="lg:w-2/3">
+                        <h3 class="text-3xl font-bold mb-8">Token Supply: 420,690,000,000,000</h3>
+                        <p class="text-2xl mb-8">No Taxes, No Bullshit. It's that simple.</p>
+                        <p class="text-2xl">LP tokens are burnt, and contract ownership is renounced.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Roadmap Section -->
+        <div class="py-24" data-aos="fade-up">
+            <div class="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-5xl font-extrabold text-[var(--primary-color)] sm:text-6xl mb-16">Roadmap</h2>
+                </div>
+                <div class="flex flex-col lg:flex-row justify-center gap-16">
+                    <div class="bg-white p-8 rounded-xl drop-shadow-xl text-center flex-1">
+                        <h3 class="text-2xl font-bold text-[var(--primary-color)] mb-4">Phase 1</h3>
+                        <p class="text-xl">Meme</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl drop-shadow-xl text-center flex-1">
+                        <h3 class="text-2xl font-bold text-[var(--primary-color)] mb-4">Phase 2</h3>
+                        <p class="text-xl">Vibe and HODL</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl drop-shadow-xl text-center flex-1">
+                        <h3 class="text-2xl font-bold text-[var(--primary-color)] mb-4">Phase 3</h3>
+                        <p class="text-xl">Meme Takeover</p>
+                    </div>
+                </div>
+                <img src="https://static.wixstatic.com/media/1f3f2b_33505209bd5340c581cc5e861ff74845~mv2.png/v1/crop/x_455,y_0,w_2691,h_2700/fill/w_296,h_297,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/pepepissingnobackground%20copy.png" alt="Make Pepe Great Again" class="mx-auto mt-16 w-48 drop-shadow-xl">
+            </div>
+        </div>
+    </div>
+  
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
